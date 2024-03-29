@@ -1,0 +1,5 @@
+<view class="todo-item">
+    <checkbox class="todo-check" checked="{{!!value.done}}" bindchange="done"></checkbox>
+    <view class="todo-text">{{value.text}}</view>
+    <button class="todo-btn" type="warn" bindtap="delete">删除</button>
+</view>

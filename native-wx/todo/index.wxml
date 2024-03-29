@@ -1,0 +1,6 @@
+<view class="todo-form">
+    <input class="todo-input" type="text" value="{{text}}" bindinput="input" />
+    <button type="primary" bindtap="add">添加</button>
+</view>
+
+<todo-item wx:for="{{list}}" wx:key="id" value="{{item}}" binddelete="delete" binddone="done" data-index="{{index}}"></todo-item>

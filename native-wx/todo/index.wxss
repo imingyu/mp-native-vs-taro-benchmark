@@ -1,0 +1,14 @@
+.todo-form {
+    display: flex;
+    align-items: center;
+    padding: 20rpx 30rpx;
+    border-bottom: 1px solid #ededed;
+}
+.todo-input {
+    border: 1px solid #ededed;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 0 30rpx;
+    flex: 1;
+    margin-right: 20rpx;
+}

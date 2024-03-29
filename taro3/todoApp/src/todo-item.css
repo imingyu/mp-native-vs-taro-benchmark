@@ -1,0 +1,15 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+    padding: 30rpx;
+}
+.todo-check {
+    width: 80rpx;
+}
+.todo-btn {
+    flex-shrink: 0;
+}
+.todo-text {
+    flex: 1;
+}
